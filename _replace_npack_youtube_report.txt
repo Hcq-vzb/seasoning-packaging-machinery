@@ -1,0 +1,31 @@
+Npack YouTube 替换报告
+时间: 2026-05-30T09:00:56.364Z
+扫描文件: 3212
+修改文件: 27
+频道链接处理: 36
+社交图标取消跳转: 0
+视频 ID 替换次数: 0
+Npack YouTube 文案修正: 0
+
+剩余 NpackAutomation 频道引用: 0
+剩余旧 embed ID: (无)
+
+视频映射:
+  Y4V-cn2h8sw -> mgZ_2MJHlL0
+  PYEKkpibb7A -> IpwabzdZ_9A
+  isNIy0nUWc0 -> IpwabzdZ_9A
+  nuxkgP4HS6A -> CD7pRHOE1RM
+  paCPlppg4XY -> wYjf2yFUDUY
+  NEagXbc1Jk0 -> RGl_CkQGUw0
+  3sMcfCeVEik -> CgGAyvpPVuo
+  XhbajZZ7j1s -> CgGAyvpPVuo
+  BOI0etpB_iI -> njNxHvR7R60
+  8RHXzidX2vI -> njNxHvR7R60
+  jx6v1a6dNSA -> njNxHvR7R60
+  Fj3CcBAXZGs -> 27TDfE4OzPQ
+  xFvas40ETnk -> mgZ_2MJHlL0
+  wdSLQDQDZPw -> CD7pRHOE1RM
+  bwhtR4agZOw -> 8AjNK2KKy-o
+  pMSV31Q6Ow0 -> IpwabzdZ_9A
+  Ms3WsECvqsM -> 8AjNK2KKy-o
+  Hb7eb-pkjfY -> mgZ_2MJHlL0
