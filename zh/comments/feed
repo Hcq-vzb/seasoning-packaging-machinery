@@ -1,0 +1,21 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	"中国液体灌装机领先制造商」的评论	</title>
+	<atom:link href="https://www.npackpm.com/zh/comments/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.npackpm.com/zh</link>
+	<description></description>
+	<lastbuilddate>Fri, 22 May 2026 02:17:12 +0000</lastbuilddate>
+	<sy:updateperiod>
+	每小时	</sy:updateperiod>
+	<sy:updatefrequency>
+	1	</sy:updatefrequency>
+	<generator>https://wordpress.org/?v=7.0</generator>
+</channel>
+</rss>

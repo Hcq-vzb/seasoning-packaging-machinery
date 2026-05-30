@@ -1,0 +1,15 @@
+页脚社交媒体图标取消跳转报告
+时间: 2026-05-30T03:31:43.550Z
+扫描 HTML: 1748
+更新文件: 1082
+处理 ct-socials-block 区块: 1082
+取消链接图标数: 5410
+仍含页脚社交链接的文件: 0
+(无)
+
+抽样验证:
+index.html: footerLinks=0 offcanvasSocialLinks=4 elementorSocial=0 navHasLinks=true
+zh/index.html: footerLinks=0 offcanvasSocialLinks=4 elementorSocial=0 navHasLinks=true
+de/index.html: footerLinks=0 offcanvasSocialLinks=4 elementorSocial=0 navHasLinks=true
+contact.html: footerLinks=0 offcanvasSocialLinks=4 elementorSocial=1 navHasLinks=true
+zh/联系.html: footerLinks=0 offcanvasSocialLinks=4 elementorSocial=1 navHasLinks=true

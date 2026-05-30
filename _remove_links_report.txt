@@ -1,0 +1,14 @@
+取消跳转修复报告
+时间: 2026-05-30T02:13:11.426Z
+扫描 HTML: 1748
+更新文件: 1082
+认证卡片 CTA 改为 div: 44
+页脚 Alibaba 去链接: 1091
+页脚 Direct Industry 去链接: 1082
+
+抽样验证:
+index.html: cert<a>=0 cert<div>=0 alibabaHref=0 footerLinkInCopyright=false
+zh/index.html: cert<a>=0 cert<div>=0 alibabaHref=0 footerLinkInCopyright=false
+fr/index.html: cert<a>=0 cert<div>=0 alibabaHref=0 footerLinkInCopyright=false
+about-us.html: cert<a>=0 cert<div>=1 alibabaHref=0 footerLinkInCopyright=false
+zh/关于我们.html: cert<a>=0 cert<div>=1 alibabaHref=0 footerLinkInCopyright=false

@@ -1,0 +1,35 @@
+英文首页 index.html 幻灯片（Hero 背景轮播）修复报告
+时间: 2026-05-27
+
+【根因】
+- 首屏 Hero 使用 Elementor「背景幻灯」(data-settings.background_background=slideshow)
+- 轮播 DOM（.elementor-background-slideshow）原由 elementor-frontend.js 在运行时注入
+- 本地静态镜像打开时 Elementor 初始化失败/不完整，幻灯 DOM 从未生成 → 首屏只剩文字，看起来像幻灯消失
+- 图片文件本身存在，非 404：
+  - wp-content/uploads/2025/10/2025102006460332.webp
+  - wp-content/uploads/2025/12/2025121509395827.webp
+
+【修复方式】仅修改 index.html
+
+1. HTML（容器 elementor-element-552f79b 内）
+   - 注入静态 .elementor-background-slideshow 结构（2 张幻灯）
+   - 与 Elementor data-settings 中 gallery URL 一致
+
+2. CSS（<head> 内联 #npack-hero 相关规则）
+   - 容器 position:relative、min-height:600px、overflow:hidden
+   - 幻灯层 absolute 铺满，半透明遮罩 opacity:0.4
+   - 内容 .e-con-inner z-index 置顶
+   - 淡入淡出 transition 0.5s + Ken Burns 缩放动画（与原站一致）
+
+3. JS（</body> 前 npack-hero-slideshow-js）
+   - 不依赖 CDN / Elementor
+   - 每 3000ms 自动切换，循环播放
+   - 切换时重置 Ken Burns 动画
+
+【未改动】
+- 其他页面、wp-content 插件文件、英文子页面均未修改
+
+【本地验证】
+1. Ctrl+Shift+Delete 清缓存
+2. 打开 index.html
+3. 首屏应显示两张图淡入淡出轮播，标题/按钮叠在图片上方

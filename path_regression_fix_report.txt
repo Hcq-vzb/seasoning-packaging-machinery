@@ -1,0 +1,35 @@
+路径回归修复报告
+时间: 2026-05-29T12:58:39.320Z
+修改文件: 1074
+替换次数: 13765
+残留路径问题: 0
+无
+
+抽样:
+index.html
+  title: Home - China Liquid Filling Machine Leading Manufacturer
+  logo: ./wp-content/uploads/2025/10/npacklogo.png
+  KIWL text: true
+  bad href: false
+  LANG_EQUIV: n/a
+
+zh/index.html
+  title: 主页 - 中国液体灌装机领先制造商
+  logo: ../wp-content/uploads/2025/10/npacklogo.png
+  KIWL text: true
+  bad href: false
+  LANG_EQUIV: n/a
+
+vacuum-capping-machine.html
+  title: NP-VC Vacuum Capping Machine - lug cap Vacuum capper
+  logo: ./wp-content/uploads/2025/10/npacklogo.png
+  KIWL text: true
+  bad href: false
+  LANG_EQUIV: n/a
+
+about-us/npack-customer.html
+  title: KIWL is trusted partner for bottling packaging solutions
+  logo: ../wp-content/uploads/2025/10/npacklogo.png
+  KIWL text: true
+  bad href: false
+  LANG_EQUIV: "en":"npack-customer.html","de":"../de/uber-uns/npack-kunde.html","fr":"../fr/a-propos-de-nous/client-npack.html","es":"

@@ -1,0 +1,21 @@
+联系方式与地址更新报告
+时间: 2026-05-29T15:01:19.000Z
+修改文件: 4
+电话替换次数: 0
+
+抽样:
+index.html
+  phone: OK
+  address: OK
+zh/index.html
+  phone: OK
+  address: OK
+pl/index.html
+  phone: OK
+  address: OK
+contact.html
+  phone: OK
+  address: OK
+zh/联系.html
+  phone: OK
+  address: OK

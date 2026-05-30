@@ -1,0 +1,88 @@
+/**
+ * Local static language dropdown – pure CSS hover (no JS required to open).
+ * Fixes gap/hover loss and broken blocksy-companion language-switcher.min.css mirror.
+ */
+
+.ct-language-switcher[data-type="dropdown"] {
+  position: relative !important;
+  display: inline-block !important;
+  z-index: 100;
+}
+
+.ct-language-switcher[data-type="dropdown"] > .ct-active-language {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ct-language-switcher[data-type="dropdown"] > ul {
+  position: absolute !important;
+  top: 100% !important;
+  right: 0 !important;
+  left: auto !important;
+  margin: 0 !important;
+  padding: 6px 0 !important;
+  min-width: 150px;
+  list-style: none !important;
+  background: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 4px !important;
+  z-index: 99999 !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
+}
+
+/* Invisible bridge so moving mouse from trigger to menu does not lose hover */
+.ct-language-switcher[data-type="dropdown"] > ul::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+}
+
+.ct-language-switcher[data-type="dropdown"]:hover > ul,
+.ct-language-switcher[data-type="dropdown"]:focus-within > ul,
+.ct-language-switcher[data-type="dropdown"].is-open > ul {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.ct-language-switcher[data-type="dropdown"]:hover,
+.ct-language-switcher[data-type="dropdown"].is-open {
+  z-index: 100001 !important;
+}
+
+.ct-language-switcher[data-type="dropdown"] > ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.ct-language-switcher[data-type="dropdown"] > ul li a {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  white-space: nowrap;
+  pointer-events: auto !important;
+}
+
+.ct-language-switcher[data-type="dropdown"] > ul li a:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.ct-language-switcher[data-type="dropdown"] > ul img {
+  flex-shrink: 0;
+}

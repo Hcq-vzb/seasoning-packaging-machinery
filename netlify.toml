@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/api/send-inquiry"
+  to = "/.netlify/functions/send-inquiry"
+  status = 200

@@ -1,0 +1,53 @@
+多语言「俄语内容覆盖」问题修复报告
+================================
+时间: 2026-05-27
+
+一、问题诊断
+------------
+1. 扫描结论：/pl/、/de/、/fr/ 等目录的 index.html 等核心页**并非**被俄语文件整体替换
+   （各语言 html lang、导航文案、标题均正确：如 pl=DO DOMU，de=ZU HAUSE，ru=Главная）
+2. 用户感知「全是俄语」的**主因**：
+   上一轮「语言隔离」脚本误将右上角 ct-language-switcher 中
+   `../de/index.html`、`../pl/index.html` 等改成了 `index.html`
+   → 在 /ru/index.html 点击「波兰语」仍打开 /ru/index.html（俄语首页）
+   → 在 /pl/ 点击「德语」仍打开 /pl/index.html（波兰语首页）
+
+二、已执行修复
+--------------
+脚本：_fix_lang_isolation_restore.mjs
+
+| 项目 | 数量 |
+|------|------|
+| 语言菜单链接恢复 | 12,906 处 |
+| hreflang 栏目页校正 | 多页（news/firm-news/industry-news 等） |
+| NPACKPM_LANG_HOMES 按目录深度 | 1,007 文件 |
+| 正文误链其它语言目录 | 5,474 处 |
+| 修改文件 | ~1,000 |
+
+三、修复后验证示例
+------------------
+• /ru/index.html：波兰语 → `../pl/index.html`，德语 → `../de/index.html`
+• /pl/index.html：德语 → `../de/index.html`，英语 → `../index.html`
+• /pl/wiadomosci-branzowe.html：hreflang 指向 `../pl/wiadomosci-branzowe.html`（非 index）
+
+四、语言目录说明
+----------------
+• 中文目录为 **zh/**（项目中无 cn/）
+• 语言：de, fr, es, it, ru, pl, pt, zh
+
+五、剩余说明
+------------
+• 约 91 篇从英文根目录复制的详情页（如 pl/what-are-sachets-*.html）正文仍为英文
+  （HTTrack 未镜像对应翻译页时的兜底），不是俄语
+• 如需恢复这些页的波兰语/德语正文，需从原站重新抓取或提供备份
+
+六、测试步骤
+------------
+1. Ctrl+Shift+Delete 清空缓存
+2. 打开 /ru/index.html → 应显示俄语
+3. 菜单点「波兰语」→ 应跳 /pl/index.html 且为波兰语
+4. 打开 /pl/wiadomosci.html → 点新闻 → 应留在 /pl/ 下波兰语详情页
+
+七、防复发
+----------
+已更新 _fix_isolang_complete.mjs：不再改写 ct-language-switcher 内链接

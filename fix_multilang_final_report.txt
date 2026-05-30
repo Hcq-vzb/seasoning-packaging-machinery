@@ -1,0 +1,65 @@
+多语言全站修复 — 最终报告
+================================
+时间: 2026-05-27
+站点: www.npackpm.com (HTTrack 静态镜像)
+
+一、处理范围
+------------
+• 语言目录: de, fr, es, it, ru, pl, pt, zh（中文为 zh/，项目中无 cn/）
+• 各语言 HTML 约 177–257 个/目录（不含 wp-json）
+• 英文主站: 根目录约 170 个 HTML — 未修改
+
+二、结构（第二步）
+------------------
+• .html 命名文件夹: 0（此前已扁平化）
+• HTTrack 重定向 stub: 0
+
+三、跨语言链接（第三步）
+------------------------
+• 第一轮 _fix_isolang_complete.mjs: 3390 处 → 853 个文件
+• 第二轮 _fix_isolang_pass2.mjs: 嵌套 ../../ 1327 + 跨语言 2051
+• 第三轮（增强）: 892 处 + 菜单 ID 映射 91 文件
+• 分页深度修正: 364 处（../../../ → ../../ 等）
+• 镜像缺失文章: 复制 91 个英文文章到各语言目录（保持 URL 在 /pl/ 等下，避免跳转英文）
+
+四、栏目与导航（第四步）
+------------------------
+• 各语言 index.html 导航已指向本语言栏目（如 pl: o-nas.html, wiadomosci.html）
+• de/index.html 首页为 index.html（非 ../index.html）
+• 嵌套栏目页（如 pt/sobre-nos/fabrica-npack.html）已修正 ../../ 错误路径
+• 从各语言 index 的 menu-item-ID 对齐，批量替换复制页中的英文菜单链接
+
+五、资源路径（第五步）
+----------------------
+• wp-content / wp-includes 使用 ../ 回退根目录（各语言深度已校正）
+• 各语言目录已复制 privacy-policy.html（页脚链接）
+
+六、验证要点（请 Ctrl+Shift+Delete 清缓存后测试）
+------------------------------------------------
+✓ pl/wiadomosci.html 新闻卡片 → pl/*-html.html（如 hot-filling-machine-html.html）
+✓ pl/wiadomosci/strona/2.html → ../../what-are-sachets-and-how-to-fill-sachets.html（pl 目录内）
+✓ 语言切换器 → ../news.html 等（保留， intentional）
+✓ 英文根目录 index.html 未改动
+
+七、自检剩余（非用户点击路径或已知限制）
+----------------------------------------
+• wp-json/index.html 链接约 214（API，可忽略）
+• hreflang / 语言切换菜单指向其他语言（约 900+， intentional）
+• 部分 HTTrack 未镜像的翻译详情页：已用英文正文复制到语言目录，导航已波兰语/德语化，正文可能仍为英文
+• 语言切换器中 fr/index.html 等个别 hreflang 目标需在线环境验证
+
+八、脚本清单（可重复执行）
+--------------------------
+_fix_isolang_complete.mjs      — 主修复（hreflang 映射 + 跨语言）
+_fix_isolang_pass2.mjs         — 嵌套路径（慎用，已合并入主脚本逻辑）
+_fix_pagination_and_missing.mjs — 分页深度 + 缺失文章复制
+_fix_nav_by_menu_id.mjs        — 菜单 ID 导航对齐
+_fix_suffix_privacy.mjs        — 隐私政策页复制
+_diag_remaining.mjs            — 剩余问题诊断
+_scan_crosslang.mjs            — 全站扫描
+
+报告文件:
+fix_isolang_complete_report.txt
+fix_isolang_pass2_report.txt
+fix_pagination_missing_report.txt
+fix_nav_menu_id_report.txt

@@ -1,0 +1,30 @@
+客户群页面全站修复报告
+时间: 2026-05-27T11:10:59.139Z
+
+【文件结构】
+  文件夹校正: 无
+  新建/恢复文件: ru/о-нас/клиент-npack.html (from -2)
+
+【链接】
+  菜单项校正次数: 2802
+  英文客户路径替换: 0
+
+【客户页内容】
+  客户页深度修复: 8 个
+  图库缩略图校正: 56
+
+【各语言客户页路径】
+  zh: 关于我们/客户.html
+  pl: o-nas/klient-npack.html
+  de: uber-uns/npack-kunde.html
+  fr: a-propos-de-nous/client-npack.html
+  es: acerca-de-nosotros/npack-cliente.html
+  it: chi-siamo/cliente-npack.html
+  ru: о-нас/клиент-npack.html
+  pt: sobre-nos/cliente-npack.html
+
+【二次修复】Logo / 面包屑首页
+  8 个语言客户页 site-logo 与面包屑「首页」统一指向各语言 index.html
+
+说明: 仅处理多语言目录；英文根目录 about-us/npack-customer.html 未改。
+备份文件 *-2.html 未改（非正式页面）。

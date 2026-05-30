@@ -1,0 +1,24 @@
+ct_localizations 修复报告
+时间: 2026-05-29T16:47:33.999Z
+扫描: 1748
+更新: 1053
+跳过(正常): 29
+错误: 0
+
+
+抽样:
+index.html
+  public_url: wp-content/themes/blocksy/static/bundle/
+  chunk0: wp-content/plugins/blocksy-companion-pro2.1.15正/framework/premium/static/bundle/micro-popups.js?ver=2.1.42
+
+de/index.html
+  public_url: ../wp-content/themes/blocksy/static/bundle/
+  chunk0: ../wp-content/plugins/blocksy-companion-pro2.1.15正/framework/premium/static/bundle/micro-popups.js?ver=2.1.42
+
+zh/index.html
+  public_url: ../wp-content/themes/blocksy/static/bundle/
+  chunk0: ../wp-content/plugins/blocksy-companion-pro2.1.15正/framework/premium/static/bundle/micro-popups.js?ver=2.1.42
+
+product/page/2.html
+  public_url: ../../wp-content/themes/blocksy/static/bundle/
+  chunk0: ../../wp-content/plugins/blocksy-companion-pro2.1.15正/framework/premium/static/bundle/micro-popups.js?ver=2.1.42

@@ -1,0 +1,21 @@
+英文客户页图片修复报告
+时间: 2026-05-27T12:16:51.752Z
+文件: about-us/npack-customer.html
+参考: zh/关于我们/客户.html
+
+【修复项】
+  图库项（href→thumbnail+background）: 7
+  页脚 logo 样式校正: 1
+  懒加载 data-src→src: 0
+  补全 ../ 的 wp-content 路径: 4
+  去除重复 fetchpriority: 1
+  elementor 图库 lazyload: yes → no
+
+【验证】
+  图库 webp 文件缺失: 0
+  （无）
+
+【根因说明】
+  1. e-gallery-image 的 data-thumbnail 误指向 ../../.../npack.png.webp，且缺少 background-image 内联样式
+  2. 原 _fix_customer_pages.mjs 未包含英文目录，未执行图库修复
+  3. 页脚 logo 仍为 width:150px;height:32px，与中文页不一致

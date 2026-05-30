@@ -1,0 +1,121 @@
+{
+  "details": [
+    {
+      "code": "zh",
+      "file": "工业贴标机-html.html",
+      "ok": true
+    },
+    {
+      "code": "it",
+      "file": "etichettatrice-industriale-html.html",
+      "ok": true
+    },
+    {
+      "code": "pl",
+      "file": "przemyslowa-maszyna-etykietujaca-html.html",
+      "ok": true
+    },
+    {
+      "code": "fr",
+      "file": "machine-a-etiqueter-industrielle-html.html",
+      "ok": true
+    },
+    {
+      "code": "de",
+      "file": "industrielle-etikettiermaschine-html.html",
+      "ok": true
+    },
+    {
+      "code": "es",
+      "file": "etiquetadora-industrial-html.html",
+      "ok": true
+    },
+    {
+      "code": "ru",
+      "file": "industrial-labeling-machine.html",
+      "ok": true
+    }
+  ],
+  "listings": [
+    {
+      "file": "news/page/3.html",
+      "ok": true
+    },
+    {
+      "file": "technology/page/2.html",
+      "ok": true
+    },
+    {
+      "file": "zh/新闻/页码/3.html",
+      "ok": true
+    },
+    {
+      "file": "zh/技术/页码/2.html",
+      "ok": true
+    },
+    {
+      "file": "zh/技术/页码/2-2.html",
+      "ok": true
+    },
+    {
+      "file": "pt/noticias/pagina/3.html",
+      "ok": true
+    },
+    {
+      "file": "pt/tecnologia/pagina/2.html",
+      "ok": true
+    },
+    {
+      "file": "it/notizie/pagina/3.html",
+      "ok": true
+    },
+    {
+      "file": "it/tecnologia/pagina/2.html",
+      "ok": true
+    },
+    {
+      "file": "pl/wiadomosci/strona/3.html",
+      "ok": true
+    },
+    {
+      "file": "pl/technologia/strona/2.html",
+      "ok": true
+    },
+    {
+      "file": "fr/nouvelles/page/3.html",
+      "ok": true
+    },
+    {
+      "file": "fr/technologie/page/2.html",
+      "ok": true
+    },
+    {
+      "file": "de/nachrichten/seite/3.html",
+      "ok": true
+    },
+    {
+      "file": "de/technologie/seite/2.html",
+      "ok": true
+    },
+    {
+      "file": "es/noticias/pagina/3.html",
+      "ok": true
+    },
+    {
+      "file": "es/tecnologia/pagina/2.html",
+      "ok": true
+    },
+    {
+      "file": "ru/новости/страница/3.html",
+      "ok": true
+    },
+    {
+      "file": "ru/технология/страница/2.html",
+      "ok": true
+    },
+    {
+      "file": "ru/технология/страница/2-2.html",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+多语言子目录修复报告
+========================
+时间: 2026-05-27T06:57:10.500Z
+语言: de, fr, es, it, ru, pl, pt, zh
+
+【第一步】扁平化 .html 文件夹: 0
+
+
+【第二步】删除重定向 stub: 0
+
+
+【第三~四步】链接与资源路径
+  修改文件: 1446
+  URL 修复: 214329
+  懒加载 src 同步: 0
+
+【验证抽样】
+  de/index.html: depth=1 wp-bad=0 home=n/a
+  de/nachrichten/seite/2.html: depth=3 wp-bad=29 home=n/a
+  pl/index.html: depth=1 wp-bad=0 home=n/a
+  fr/index.html: depth=1 wp-bad=0 home=n/a
+  zh/index.html: depth=1 wp-bad=0 home=n/a
+
+【错误】0
+
+【补充修复 _fix_multilang_polish + _fix_pagination_nums】
+  - 8 个语言首页：导航/Logo/hreflang 校正
+  - 各语言新闻/产品/技术分页：hreflang、prev/next、页码链接
+  - 分页内 ../../../N.html → N.html
+

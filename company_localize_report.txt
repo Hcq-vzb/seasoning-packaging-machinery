@@ -1,0 +1,47 @@
+公司名+地域名本地化替换报告
+时间: 2026-05-29T13:12:03.164Z
+修改文件数: 9
+总替换次数(约): 63
+按语言: {"de":1,"es":1,"fr":1,"it":1,"pl":1,"en":1,"pt":1,"ru":1,"zh":1}
+
+路径破坏: 0
+无
+
+残留: 0
+无
+
+抽样:
+zh/index.html
+  title: 主页 - 中国液体灌装机领先制造商
+  h1: 江苏鑫紫鲸机械制造集团有限公司
+  bad href: false
+
+index.html
+  title: Home - China Liquid Filling Machine Leading Manufacturer
+  h1: Jiangsu KIWL Machinery Manufacturing Group Co., Ltd
+  bad href: false
+
+fr/index.html
+  title: Accueil - Machine de remplissage de liquides en Chine Fabricant leader
+  h1: Jiangsu KIWL Groupe de Fabrication de Machines Co., Ltd
+  bad href: false
+
+de/index.html
+  title: Home - China Flüssigabfüllmaschine Führender Hersteller
+  h1: Jiangsu KIWL Maschinenbau-Gruppe Co., Ltd
+  bad href: false
+
+es/index.html
+  title: Inicio - China Fabricante líder de máquinas llenadoras de líquidos
+  h1: Jiangsu KIWL Grupo de Fabricación de Maquinaria Co., Ltd
+  bad href: false
+
+vacuum-capping-machine.html
+  title: NP-VC Vacuum Capping Machine - lug cap Vacuum capper
+  h1: NP-VC Vacuum Capping Machine
+  bad href: false
+
+shanghai-npack-shines-at-propak-china-2025.html
+  title: Jiangsu KIWL Machinery Manufacturing Group Co., Ltd Shines at ProPak C
+  h1: Jiangsu KIWL Machinery Manufacturing Group Co., Ltd Shines at ProPak China 2025
+  bad href: false

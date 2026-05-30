@@ -1,0 +1,101 @@
+9语言全站分页路径修复报告
+时间: 2026-05-27T13:44:36.421Z
+
+【分页映射表】
+[en]
+  product/page/ → product.html (页 3)
+  news/page/ → news.html (页 4)
+  technology/page/ → technology.html (页 3)
+
+[zh]
+  产品/页码/ → zh/产品.html (页 3)
+  新闻/页码/ → zh/新闻.html (页 4)
+  技术/页码/ → zh/技术.html (页 3)
+
+[de]
+  produkt/seite/ → de/produkt.html (页 3)
+  nachrichten/seite/ → de/nachrichten.html (页 4)
+  technologie/seite/ → de/technologie.html (页 3)
+
+[fr]
+  produit/page/ → fr/produit.html (页 3)
+  nouvelles/page/ → fr/nouvelles.html (页 4)
+  technologie/page/ → fr/technologie.html (页 3)
+
+[es]
+  producto/pagina/ → es/producto.html (页 3)
+  noticias/pagina/ → es/noticias.html (页 4)
+  tecnologia/pagina/ → es/tecnologia.html (页 3)
+
+[it]
+  prodotto/pagina/ → it/prodotto.html (页 3)
+  notizie/pagina/ → it/notizie.html (页 4)
+  tecnologia/pagina/ → it/tecnologia.html (页 3)
+
+[ru]
+  продукт/страница/ → ru/продукт.html (页 3)
+  новости/страница/ → ru/новости.html (页 4)
+  технология/страница/ → ru/технология.html (页 3)
+
+[pl]
+  produkt/strona/ → pl/produkt.html (页 3)
+  wiadomosci/strona/ → pl/wiadomosci.html (页 4)
+  technologia/strona/ → pl/technologia.html (页 3)
+
+[pt]
+  produto/pagina/ → pt/produto.html (页 3)
+  noticias/pagina/ → pt/noticias.html (页 4)
+  tecnologia/pagina/ → pt/tecnologia.html (页 3)
+
+【扫描】共 119 个分页文件
+
+【修复统计】
+  文件夹式分页校正: 0
+  损坏/缺失分页恢复: 3
+  修改 HTML 文件数: 63
+  相对链接校正: 1196
+  分页导航校正: 63
+  资源路径(wp-content等): 84
+  跨语言链接修正: 0
+  懒加载 src 同步: 0
+  补充 UTF-8 charset: 0
+
+【恢复的文件】
+ru/продукт/страница/2.html
+  ru/новости/страница/2.html
+  ru/технология/страница/2.html
+
+【文件夹校正】
+  无
+
+【验证仍异常】(7)
+  - news/page/2.html: excessive-depth
+  - news/page/3.html: excessive-depth
+  - news/page/4.html: excessive-depth
+  - product/page/2.html: excessive-depth
+  - product/page/3.html: excessive-depth
+  - technology/page/2.html: excessive-depth
+  - technology/page/3.html: excessive-depth
+
+【指向英文根目录的缺失目标（需复制文章时关注）】
+zh: product/page/2.html
+  zh: fr/produit/page/2.html
+  zh: de/produkt/seite/2.html
+  zh: it/prodotto/pagina/2.html
+  zh: es/producto/pagina/2.html
+  zh: ru/продукт/страница/2-2.html
+  zh: pl/produkt/strona/2.html
+  zh: pt/produto/pagina/2.html
+  zh: assets/local-lang-switcher.css
+  zh: fr/index.html
+  zh: de/index.html
+  zh: it/index.html
+  zh: es/index.html
+  zh: ru/index.html
+  zh: pl/index.html
+  zh: pt/index.html
+
+
+【最终验证】
+分页验证: 63 个文件, 0 个问题
+  全部通过

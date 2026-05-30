@@ -1,0 +1,61 @@
+品牌名全站替换报告
+时间: 2026-05-29T12:52:53.712Z
+修改文件数: 1074
+上海Npack → 江苏KIWL: 106
+上海置泉自动化设备有限公司 → 江苏鑫紫鲸: 8
+独立 Npack → KIWL: 38328
+
+路径破坏: 0
+无
+
+残留品牌名: 13
+de/heisabfullmaschine-html.html: npack text
+es/maquina-de-llenado-en-caliente-html.html: npack text
+fr/machine-de-remplissage-a-chaud-html.html: npack text
+index.html: npack text
+it/macchina-di-riempimento-a-caldo-html.html: npack text
+pl/hot-filling-machine-html.html: npack text
+pt/maquina-de-enchimento-a-quente-html.html: npack text
+ru/машина-для-горячего-розлива-html-2.html: npack text
+ru/машина-для-горячего-розлива-html.html: npack text
+ru/о-нас/клиент-npack-2.html: npack text
+zh/关于我们/客户-2.html: npack text
+zh/热灌装机-html-2.html: npack text
+zh/热灌装机-html.html: npack text
+
+抽样检查:
+index.html
+  title: Home - China Liquid Filling Machine Leading Manufacturer
+  h1: Shanghai KIWL Automation Equipment Co , ltd
+  npack paths preserved: true
+  kiwl text: true
+
+zh\index.html
+  title: 主页 - 中国液体灌装机领先制造商
+  h1: 江苏鑫紫鲸机械制造集团有限公司
+  npack paths preserved: true
+  kiwl text: true
+
+vacuum-capping-machine.html
+  title: NP-VC Vacuum Capping Machine - lug cap Vacuum capper
+  h1: NP-VC Vacuum Capping Machine
+  npack paths preserved: true
+  kiwl text: true
+
+zh\真空旋盖机.html
+  title: NP-VC 真空旋盖机 - 真空旋盖机
+  h1: NP-VC 真空旋盖机
+  npack paths preserved: true
+  kiwl text: true
+
+about-us\npack-customer.html
+  title: KIWL is trusted partner for bottling packaging solutions
+  h1: KIWL Customer
+  npack paths preserved: true
+  kiwl text: true
+
+shanghai-npack-shines-at-propak-china-2025.html
+  title: Shanghai KIWL Shines at ProPak China 2025 - China Liquid Filling Machine Leading
+  h1: Shanghai KIWL Shines at ProPak China 2025
+  npack paths preserved: true
+  kiwl text: true

@@ -1,0 +1,88 @@
+CSS/JS 路径修复报告
+==================
+扫描 HTML 文件: 1643
+修改文件数: 811
+校正 stylesheet 链接: 897
+校正 script 链接: 32
+仍缺失的资源: 1515
+
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/uploads/blocksy/css/globala4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-includes/css/dist/block-library/style.min.css?ver=7.0
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/table-of-contents/global.e90f6d47a4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/recipe/global.d86a4aa4a4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/product/global.0f804f5fa4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/captcha-for-contact-form-7/core/assets/f12-cf7-captchaa4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/iks-menu-pro/assets/css/publica4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/themes/blocksy/static/bundle/main.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/themes/blocksy/static/bundle/page-title.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\2.html] ../../wp-content/themes/blocksy/static/bundle/sidebar.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\2.html] ../../wp-content/themes/blocksy/static/bundle/elementor-frontend.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/elementor/assets/css/frontend.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/elementor/assets/css/widget-heading.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/pro-elements/assets/css/conditionals/popup.mindb1a.css?ver=4.0.4.2
+  [de\nachrichten\seite\2.html] ../../wp-content/uploads/elementor/css/post-24bce4.css?ver=1779686417
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\2.html] ../../wp-content/uploads/elementor/css/base-desktop64a3.css?ver=6a13dc11a314a
+  [de\nachrichten\seite\2.html] ../../wp-content/uploads/elementor/css/post-3112bce4.css?ver=1779686417
+  [de\nachrichten\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v2a4d4.css?ver=1779686511
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/blocksy-companion-pro2.1.15%e6%ad%a3/framework/premium/static/bundle/language-switcher.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\2.html] ../../wp-content/themes/blocksy/static/bundle/entries.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\2.html] ../../wp-content/uploads/elementor/css/post-2696bce4.css?ver=1779686417
+  [de\nachrichten\seite\2.html] ../../wp-content/plugins/pro-elements/assets/css/widget-form.mindb1a.css?ver=4.0.4.2
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/uploads/blocksy/css/globala4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-includes/css/dist/block-library/style.min.css?ver=7.0
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/table-of-contents/global.e90f6d47a4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/recipe/global.d86a4aa4a4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/product/global.0f804f5fa4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/captcha-for-contact-form-7/core/assets/f12-cf7-captchaa4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/iks-menu-pro/assets/css/publica4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/themes/blocksy/static/bundle/main.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/themes/blocksy/static/bundle/page-title.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\3.html] ../../wp-content/themes/blocksy/static/bundle/sidebar.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\3.html] ../../wp-content/themes/blocksy/static/bundle/elementor-frontend.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/elementor/assets/css/frontend.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/elementor/assets/css/widget-heading.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/pro-elements/assets/css/conditionals/popup.mindb1a.css?ver=4.0.4.2
+  [de\nachrichten\seite\3.html] ../../wp-content/uploads/elementor/css/post-24bce4.css?ver=1779686417
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\3.html] ../../wp-content/uploads/elementor/css/base-desktop64a3.css?ver=6a13dc11a314a
+  [de\nachrichten\seite\3.html] ../../wp-content/uploads/elementor/css/post-3112bce4.css?ver=1779686417
+  [de\nachrichten\seite\3.html] ../../wp-content/cache/min/1/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v2a4d4.css?ver=1779686511
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/blocksy-companion-pro2.1.15%e6%ad%a3/framework/premium/static/bundle/language-switcher.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\3.html] ../../wp-content/themes/blocksy/static/bundle/entries.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\3.html] ../../wp-content/uploads/elementor/css/post-2696bce4.css?ver=1779686417
+  [de\nachrichten\seite\3.html] ../../wp-content/plugins/pro-elements/assets/css/widget-form.mindb1a.css?ver=4.0.4.2
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/uploads/blocksy/css/globala4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-includes/css/dist/block-library/style.min.css?ver=7.0
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/table-of-contents/global.e90f6d47a4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/recipe/global.d86a4aa4a4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/product/global.0f804f5fa4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/captcha-for-contact-form-7/core/assets/f12-cf7-captchaa4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/iks-menu-pro/assets/css/publica4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/themes/blocksy/static/bundle/main.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/themes/blocksy/static/bundle/page-title.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\4.html] ../../wp-content/themes/blocksy/static/bundle/sidebar.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\4.html] ../../wp-content/themes/blocksy/static/bundle/elementor-frontend.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/elementor/assets/css/frontend.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/elementor/assets/css/widget-heading.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/pro-elements/assets/css/conditionals/popup.mindb1a.css?ver=4.0.4.2
+  [de\nachrichten\seite\4.html] ../../wp-content/uploads/elementor/css/post-24bce4.css?ver=1779686417
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.mina4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minfb3d.css?ver=4.0.9
+  [de\nachrichten\seite\4.html] ../../wp-content/uploads/elementor/css/base-desktop64a3.css?ver=6a13dc11a314a
+  [de\nachrichten\seite\4.html] ../../wp-content/uploads/elementor/css/post-3112bce4.css?ver=1779686417
+  [de\nachrichten\seite\4.html] ../../wp-content/cache/min/1/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher-v2a4d4.css?ver=1779686511
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/blocksy-companion-pro2.1.15%e6%ad%a3/framework/premium/static/bundle/language-switcher.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\4.html] ../../wp-content/themes/blocksy/static/bundle/entries.min0805.css?ver=2.1.42
+  [de\nachrichten\seite\4.html] ../../wp-content/uploads/elementor/css/post-2696bce4.css?ver=1779686417
+  [de\nachrichten\seite\4.html] ../../wp-content/plugins/pro-elements/assets/css/widget-form.mindb1a.css?ver=4.0.4.2
+  [de\produkt\seite\2.html] ../../wp-content/cache/min/1/wp-content/uploads/blocksy/css/globala4d4.css?ver=1779686511
+  [de\produkt\seite\2.html] ../../wp-content/cache/min/1/wp-content/plugins/all-in-one-seo-pack-pro/dist/Pro/assets/css/table-of-contents/global.e90f6d47a4d4.css?ver=1779686511

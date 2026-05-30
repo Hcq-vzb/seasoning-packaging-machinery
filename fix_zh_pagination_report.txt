@@ -1,0 +1,27 @@
+中文 /zh/ 分页与栏目修复报告
+时间: 2026-05-27T07:45:44.372Z
+
+【乱码根因】部分 2.html 等为 gzip 压缩数据（非 UTF-8 HTML），浏览器显示乱码。
+HTTrack 同时保留了完整副本 *-2.html。
+
+【恢复】
+  从 *-2.html 恢复: 产品/页码/2.html, 关于我们/客户.html, 单体灌装机/单体式小瓶灌装内塞和旋盖机.html, 技术/页码/2.html, 新闻/页码/2.html, 活塞式灌装机/多头立式活塞自动在线灌装机.html
+  从 .html.z gunzip: 产品/热灌装机-2.html
+
+【校正】
+  修改文件数: 174
+  资源/路径修正: 308
+  补充 charset: 0
+  跨语言正文链接: 1568
+
+【自检仍损坏】index04e7.html, index071b.html, index10e9.html, index1305.html, index1407.html, index16bf.html, index1b7a.html, index1cac.html, index1d38.html, index1de9.html, index1f6f.html, index2207.html, index25cf.html, index276a.html, index2dc1.html, index2ebc.html, index2ff8.html, index33f1.html, index3d2a.html, index3e0b.html, index4521.html, index48fd.html, index4ae3.html, index4b65.html, index4d6d.html, index4ddf.html, index5210.html, index52a4.html, index5856.html, index60ea.html, index60fd.html, index65be.html, index65e3.html, index6f09.html, index7097.html, index7607.html, index799a.html, index864f.html, index8995.html, index8bf0.html, index8e05.html, index92a7.html, index9a0c.html, index9f9d.html, indexa19c.html, indexaa37.html, indexab62.html, indexabc1.html, indexadf1.html, indexaec8.html, indexb496.html, indexb63d.html, indexb7be.html, indexb80b.html, indexb88e.html, indexbb23.html, indexbeb4.html, indexbf88.html, indexc669.html, indexcaf8.html, indexd57f.html, indexd7d1.html, indexd903.html, indexd9c5.html, indexdc4e.html, indexdf65.html, indexe4f6.html, indexed0a.html, indexf699.html, indexf7d8.html, indexfb5e.html, indexff0a.html, plc-电气控制柜结构-html.html, 对酱料灌装技术的独特分析-html.html, 工业贴标机-html.html
+
+【分页导航二次修正】2026-05-27
+  已修正: 产品/新闻/技术 页码 2~4 的分页按钮、prev/next、面包屑
+  产品第2页: 上一页→产品.html，第3页→3.html
+
+【菜单误链修复】
+  181 个 zh 文件内误指向 index.html 的栏目菜单已按 menu-item-ID 还原
+
+说明: 仅修改 zh/ 目录，不影响其它语言。
+【仍损坏 gzip 文件】约 70 个 index*.html 及 3 篇详情（见上列表），不影响产品/新闻/技术分页主流程。

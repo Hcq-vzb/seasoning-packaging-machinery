@@ -1,0 +1,10 @@
+﻿Language Switcher Fix Report
+============================
+Files updated: 957
+Switcher links fixed: 918
+Hreflang blocks fixed: 957
+TRP scripts removed: 957
+Local JS injected: 957
+
+Language homes:
+  EN -> index.html   FR -> fr/index.html   DE -> de/index.html   IT -> it/index.html   ES -> es/index.html   RU -> ru/index.html   PL -> pl/index.html   PT -> pt/index.html   ZH -> zh/index.html

@@ -1,0 +1,22 @@
+首页卡片区 CTA 链接修复报告
+时间: 2026-05-30T04:51:08.618Z
+处理: 17
+更新: 17
+
+index.html: about=about-us.html | product=product.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+zh.html: about=zh/关于我们.html | product=zh/产品.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+zh/index.html: about=关于我们.html | product=产品.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+fr.html: about=fr/a-propos-de-nous.html | product=fr/produit.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+fr/index.html: about=a-propos-de-nous.html | product=produit.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+de.html: about=de/uber-uns.html | product=de/produkt.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+de/index.html: about=uber-uns.html | product=produkt.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+it.html: about=it/chi-siamo.html | product=it/prodotto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+it/index.html: about=chi-siamo.html | product=prodotto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+es.html: about=es/acerca-de-nosotros.html | product=es/producto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+es/index.html: about=acerca-de-nosotros.html | product=producto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+ru.html: about=ru/о-нас.html | product=ru/продукт.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+ru/index.html: about=о-нас.html | product=продукт.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+pl.html: about=pl/o-nas.html | product=pl/produkt.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+pl/index.html: about=o-nas.html | product=produkt.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+pt.html: about=pt/sobre-nos.html | product=pt/produto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576
+pt/index.html: about=sobre-nos.html | product=produto.html | whatsapp=https://wa.me/8617751189576 phone=+86-17751189576

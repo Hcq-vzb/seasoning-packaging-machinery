@@ -1,0 +1,35 @@
+{
+  "product": {
+    "en": {"b": "product", "p": "page"},
+    "fr": {"b": "fr/produit", "p": "page"},
+    "de": {"b": "de/produkt", "p": "seite"},
+    "es": {"b": "es/producto", "p": "pagina"},
+    "it": {"b": "it/prodotto", "p": "pagina"},
+    "pl": {"b": "pl/produkt", "p": "strona"},
+    "pt": {"b": "pt/produto", "p": "pagina"},
+    "ru": {"b": "ru/\u043f\u0440\u043e\u0434\u0443\u043a\u0442", "p": "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430"},
+    "zh": {"b": "zh/\u4ea7\u54c1", "p": "\u9875\u7801"}
+  },
+  "news": {
+    "en": {"b": "news", "p": "page"},
+    "fr": {"b": "fr/nouvelles", "p": "page"},
+    "de": {"b": "de/nachrichten", "p": "seite"},
+    "es": {"b": "es/noticias", "p": "pagina"},
+    "it": {"b": "it/notizie", "p": "pagina"},
+    "pl": {"b": "pl/wiadomosci", "p": "strona"},
+    "pt": {"b": "pt/noticias", "p": "pagina"},
+    "ru": {"b": "ru/\u043d\u043e\u0432\u043e\u0441\u0442\u0438", "p": "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430"},
+    "zh": {"b": "zh/\u65b0\u95fb", "p": "\u9875\u7801"}
+  },
+  "technology": {
+    "en": {"b": "technology", "p": "page"},
+    "fr": {"b": "fr/technologie", "p": "page"},
+    "de": {"b": "de/technologie", "p": "seite"},
+    "es": {"b": "es/tecnologia", "p": "pagina"},
+    "it": {"b": "it/tecnologia", "p": "pagina"},
+    "pl": {"b": "pl/technologia", "p": "strona"},
+    "pt": {"b": "pt/tecnologia", "p": "pagina"},
+    "ru": {"b": "ru/\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f", "p": "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430"},
+    "zh": {"b": "zh/\u6280\u672f", "p": "\u9875\u7801"}
+  }
+}

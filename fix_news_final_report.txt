@@ -1,0 +1,63 @@
+新闻页面最终修复报告
+====================
+完成时间: 2026-05-27
+
+一、扫描范围
+------------
+- 英文: news.html, firm-news.html, industry-news.html, news/page/2-4.html, technology/page/2-3.html
+- 多语言新闻分页: fr/nouvelles, de/nachrichten, es/noticias, it/notizie, pl/wiadomosci, pt/noticias, ru/новости, zh/新闻/页码
+- 多语言技术分页（含相同文章列表）: fr/technologie, de/technologie, es/tecnologia, zh/技术/页码 等
+
+二、问题类型与处理
+------------------
+
+### 1. 个别图片不显示
+- 原因: 批量替换后封面 `src` 变为 `index.html`；或误用站点 logo（npack.png.webp）作文章缩略图；`src` 在 `class` 属性之前导致正则未命中。
+- 处理:
+  - 按 post-ID 从英文 news/technology 列表建立 39 篇映射
+  - 从详情页 JSON-LD `"image"."url"` / preload / wp-block-image 提取真实封面（跳过 npack.png 占位图）
+  - 同步校正 `src` 相对路径（如 `../../wp-content/uploads/...`）
+  - 修复 news/page/2-4 验证码图标路径为 `../../wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png`
+- 示例校正:
+  - post-3633 → `wp-content/uploads/2025/10/2025101310454972.webp`
+  - post-3615 → `wp-content/uploads/2025/10/2025101612300683.webp`
+  - post-3710 → `what-are-capsules-and-how-to-fill-capsules.html` 对应封面
+
+### 2. 点击新闻显示目录索引
+- 原因: 文章链接为 `index.html` 或 `../index.html`（指向分页目录而非详情 HTML）
+- 处理:
+  - 列表项 `ct-media-container` / `entry-title` 链接改为对应 `.html` 详情页
+  - 英文 technology/page/2-3 已修复（7 篇曾损坏文章）
+  - 多语言 nouvelles/nachrichten 等 120+ 处链接已指向英文根目录详情页（相对路径按层级计算）
+  - 中文 zh/新闻、zh/技术 分页 30 个 entry-card 已修复
+- `.html` 文件夹式详情页: 扫描结果 0（此前 fix_html_folder 已扁平化 190 个目录）
+
+三、详情页（7 篇曾缺失，现为单文件）
+------------------------------------
+- what-are-capsules-and-how-to-fill-capsules.html
+- what-are-the-advantages-of-automatic-filling-machine.html
+- bee-pollen.html
+- shampoo-production-processing-equipments.html
+- how-to-choose-a-liquid-filling-machine.html
+- how-to-choose-an-edible-oil-filling-machine.html
+- analysis-of-corrosion-reasons-and-anti-corrosion-methods-for-chemical-production-equipment.html
+
+四、本轮统计（fix_news_final.ps1 + zh 补丁）
+--------------------------------------------
+- 修改列表/分页文件: 约 22 个（英文 17 + 中文 5）
+- 列表文章链接修复: 110+
+- 列表封面图修复: 100+（含中文 30 项）
+- 验证: 英文 news 列表 entry-card 错误链接/图片 = 0
+
+五、验证建议
+------------
+1. Ctrl+Shift+Delete 清空浏览器缓存
+2. 打开 news.html → 检查封面与点击
+3. 测试 news/page/2.html、3.html、4.html
+4. 抽查曾损坏的 7 篇文章（如 bee-pollen.html、食用油灌装机）
+5. 若使用中文站: 打开 zh/新闻.html 及第 2–4 页
+
+六、可重复执行脚本
+------------------
+- fix_news_final.ps1（主修复，已扩展 technology 与 Test-BadIndexHref）
+- _fix_zh_news.mjs（中文新闻/技术分页专用，按需运行）

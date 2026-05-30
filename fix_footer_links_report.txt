@@ -1,0 +1,91 @@
+全站页脚四大链接修复报告
+时间: 2026-05-28T07:13:09.265Z
+
+【修复统计】
+  修改文件数: 16
+  链接 href 校正: 0
+  链接文本校正: 126
+  WinHTTrack 目录校正: 无
+  新建/恢复页面: 无
+
+【各语言】
+  zh: 1 文件, 0 链接, 8 文本
+  pl: 1 文件, 0 链接, 8 文本
+  de: 1 文件, 0 链接, 6 文本
+  fr: 1 文件, 0 链接, 8 文本
+  es: 1 文件, 0 链接, 8 文本
+  it: 1 文件, 0 链接, 8 文本
+  ru: 1 文件, 0 链接, 8 文本
+  pt: 1 文件, 0 链接, 8 文本
+  en: 8 文件, 0 链接, 64 文本
+
+【异常类型统计】
+  路径错误: 0
+  文本错误: 0
+  跨语言英文路径: 0
+
+【验证】
+  修复后仍无效的页脚链接: 0
+  （无）
+
+【语言-页面映射表】
+[en]
+  factory: Npack Factory → /about-us/npack-factory.html
+  customer: Npack Customer → /about-us/npack-customer.html
+  certification: Npack Certification → /about-us/npack-certification.html
+  team: Npack Team → /about-us/npack-team.html
+
+[zh]
+  factory: Npack 工厂 → /zh/关于我们/npack-工厂.html
+  customer: Npack 客户群 → /zh/关于我们/客户.html
+  certification: Npack 认证资质 → /zh/关于我们/npack-认证.html
+  team: Npack 团队 → /zh/关于我们/npack-团队.html
+
+[pl]
+  factory: Fabryka Npack → /pl/o-nas/npack-factory.html
+  customer: Klienci Npack → /pl/o-nas/klient-npack.html
+  certification: Certyfikaty Npack → /pl/o-nas/certyfikacja-npack.html
+  team: Zespół Npack → /pl/o-nas/zespol-npack.html
+
+[de]
+  factory: Npack Werk → /de/uber-uns/npack-werk.html
+  customer: Npack Kunden → /de/uber-uns/npack-kunde.html
+  certification: Npack Zertifizierungen → /de/uber-uns/npack-zertifizierung.html
+  team: Npack Team → /de/uber-uns/npack-team.html
+
+[fr]
+  factory: Usine Npack → /fr/a-propos-de-nous/usine-npack.html
+  customer: Clients Npack → /fr/a-propos-de-nous/client-npack.html
+  certification: Certifications Npack → /fr/a-propos-de-nous/certification-npack.html
+  team: Équipe Npack → /fr/a-propos-de-nous/lequipe-npack.html
+
+[es]
+  factory: Fábrica Npack → /es/acerca-de-nosotros/fabrica-npack.html
+  customer: Clientes Npack → /es/acerca-de-nosotros/npack-cliente.html
+  certification: Certificaciones Npack → /es/acerca-de-nosotros/certificacion-npack.html
+  team: Equipo Npack → /es/acerca-de-nosotros/equipo-npack.html
+
+[it]
+  factory: Stabilimento Npack → /it/chi-siamo/fabbrica-npack.html
+  customer: Clienti Npack → /it/chi-siamo/cliente-npack.html
+  certification: Certificazioni Npack → /it/chi-siamo/certificazione-npack.html
+  team: Team Npack → /it/chi-siamo/team-npack.html
+
+[ru]
+  factory: Завод Npack → /ru/о-нас/завод-npack.html
+  customer: Клиенты Npack → /ru/о-нас/клиент-npack.html
+  certification: Сертификация Npack → /ru/о-нас/сертификация-npack.html
+  team: Команда Npack → /ru/о-нас/команда-npack.html
+
+[pt]
+  factory: Fábrica Npack → /pt/sobre-nos/fabrica-npack.html
+  customer: Clientes Npack → /pt/sobre-nos/cliente-npack.html
+  certification: Certificações Npack → /pt/sobre-nos/certificacao-npack.html
+  team: Equipa Npack → /pt/sobre-nos/equipa-npack.html
+
+说明: 英文站点根目录对应用户文档中的 /en/；无独立 en 文件夹。
+
+
+【深度验证】
+深度验证: 0 个问题
+全部通过

@@ -1,0 +1,22 @@
+首页幻灯片 CTA 链接修复报告
+时间: 2026-05-30T04:11:58.009Z
+处理: 17
+更新: 17
+
+index.html: products=product.html | solutions=bottling-solutions.html
+zh.html: products=zh/产品.html | solutions=zh/装瓶解决方案.html
+zh/index.html: products=产品.html | solutions=装瓶解决方案.html
+fr.html: products=fr/produit.html | solutions=fr/solutions-dembouteillage.html
+fr/index.html: products=produit.html | solutions=solutions-dembouteillage.html
+de.html: products=de/produkt.html | solutions=de/abfulllosungen.html
+de/index.html: products=produkt.html | solutions=abfulllosungen.html
+it.html: products=it/prodotto.html | solutions=it/soluzioni-di-imbottigliamento.html
+it/index.html: products=prodotto.html | solutions=soluzioni-di-imbottigliamento.html
+es.html: products=es/producto.html | solutions=es/soluciones-de-embotellado.html
+es/index.html: products=producto.html | solutions=soluciones-de-embotellado.html
+ru.html: products=ru/продукт.html | solutions=ru/решения-для-розлива.html
+ru/index.html: products=продукт.html | solutions=решения-для-розлива.html
+pl.html: products=pl/produkt.html | solutions=pl/rozwiazania-do-butelkowania.html
+pl/index.html: products=produkt.html | solutions=rozwiazania-do-butelkowania.html
+pt.html: products=pt/produto.html | solutions=pt/solucoes-de-engarrafamento.html
+pt/index.html: products=produto.html | solutions=solucoes-de-engarrafamento.html

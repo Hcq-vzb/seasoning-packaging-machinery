@@ -1,0 +1,56 @@
+栏目页面结构修复报告
+========================
+生成时间: 2026-05-27T06:45:09.863Z
+
+【第一步】扁平化 .html 文件夹: 0 个
+
+
+【第二步】删除 HTTrack 重定向 stub index.html: 537 个
+  - about-us/index.html
+  - about-us/npack-certification/index.html
+  - about-us/npack-customer/index.html
+  - about-us/npack-factory/index.html
+  - about-us/npack-team/index.html
+  - automatic-shrink-sleeve-label-machine/index.html
+  - bag-labeling-machine/index.html
+  - bottling-solutions/index.html
+  - cap-sorter-elevator/index.html
+  - capping-machine/index.html
+  - cold-glue-labeling-machine/index.html
+  - contact/index.html
+  - cosmetics-bottling-solution/index.html
+  - daily-chemical-bottling-solution/index.html
+  - de/abfulllosungen/index.html
+  - de/ausstellungen/index.html
+  - de/automatische-schrumpfschlauch-etikettenmaschine/index.html
+  - de/beutel-etikettiermaschine/index.html
+  - de/beutelfullmaschine/index.html
+  - de/branchennachrichten/index.html
+  - de/Cosmetics Bottling Solution/index.html
+  - de/datenschutzbestimmungen/index.html
+  - de/deodorant-abfullmaschine/index.html
+  - de/dienstleistungen/index.html
+  - de/etikettiermaschine-2/index.html
+  - de/fass-eimer-kanister-flussigkeitswaage/index.html
+  - de/firmennachrichten/index.html
+  - de/flussigkeitsabfullmaschine/index.html
+  - de/inline-aufnahme-und-verschliesmaschine/index.html
+  - de/kaltleim-etikettiermaschine/index.html
+  ... 共 537 个
+
+【第三步】链接与 base 标签修复
+  修改文件数: 1354
+  修复项数: 167225
+  移除 base 标签: 0
+
+【第四步】验证
+  剩余 .html 文件夹: 0
+  剩余重定向 stub: 0
+  仍含 .html/index.html 模式的文件: 0
+  仍含无扩展名栏目链接的文件: 0
+
+【错误】0
+
+【补充修复】
+  新闻分页 news/page/2-4.html 路径已单独恢复（避免栏目修复误改分页 prev/next/canonical）
+

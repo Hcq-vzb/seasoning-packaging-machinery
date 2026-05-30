@@ -1,0 +1,72 @@
+新闻页面修复报告
+==================
+完成时间: 2026-05-27
+
+一、扫描范围
+------------
+- 英文: news.html, firm-news.html, industry-news.html, news/page/2-4.html
+- 多语言列表与分页: fr/nouvelles, de/nachrichten, es/noticias, it/notizie, pl/wiadomosci, pt/noticias, ru/новости, zh/新闻 (含 page/seite/pagina 等子目录)
+- 共 40 个新闻列表/分页 HTML 已纳入修复流程
+
+二、主要问题与处理
+------------------
+1. 英文分页 news/page/2-4.html 曾被错误批量替换为 index.html
+   - 文章链接、封面 src、导航菜单、页头图标等大量失效
+   - 已通过 post-ID 索引 + news.html 菜单参照 + 标题/headline 映射恢复
+
+2. 7 篇详情页原镜像缺失（仅列表存在，点击 404）
+   - 已从原站补采 HTML 至站点根目录:
+     * what-are-capsules-and-how-to-fill-capsules.html
+     * what-are-the-advantages-of-automatic-filling-machine.html
+     * bee-pollen.html
+     * shampoo-production-processing-equipments.html
+     * how-to-choose-a-liquid-filling-machine.html
+     * how-to-choose-an-edible-oil-filling-machine.html
+     * analysis-of-corrosion-reasons-and-anti-corrosion-methods-for-chemical-production-equipment.html
+   - 列表项 post-ID 映射: 3710, 3703, 3694, 3653, 3639, 3633, 3615
+
+3. 封面图片
+   - 将 data-src 同步到 src（懒加载本地直显）
+   - 按详情页 schema ImageObject / wp-block-image 校正相对路径
+   - 缺失资源示例已补采: wp-content/uploads/2025/10/2025101703122532.webp
+
+4. 分页导航
+   - 第 1 页: ../../news.html（自 news/page/N.html）
+   - 同目录页码: 3.html, 4.html
+   - prev/next 已校验
+
+5. hreflang / 语言切换
+   - 分页页 38 个文件已重建 alternate 链接（指向各语言对应分页）
+   - 不再指向错误的 index.html
+
+6. JS / base
+   - 未发现 <base href="原站"> 标签
+   - ct_localizations 的 ajax_url/public_url 改为 ../../index.html，rest/search 改为 #
+   - 清理 elementor/rocket 中部分 npackpm.com 外链；移除 wpr-beacon 脚本
+   - JSON-LD 面包屑中仍可能含原站 URL（仅 SEO 元数据，不影响本地导航）
+
+三、脚本文件（可重复执行）
+--------------------------
+- fix_news_pages.ps1       — 主修复（索引、菜单、分页、hreflang）
+- fix_news_entry_cards.ps1 — 补全 post-ID 文章块与图片
+- fix_news_remaining.ps1   — 补采页路径改写、JS 清理
+- fix_pagination_phase3.ps1 — 侧栏/页头 prev-next（已一并执行）
+
+四、统计（主脚本 fix_news_pages.ps1）
+-------------------------------------
+- 修改文件: 38
+- 文章链接: 11+ | 封面图: 56+ | 菜单: 67 | 分页: 2
+- Hreflang: 38 | ct_localizations: 38
+
+五、验证建议
+------------
+1. Ctrl+Shift+Delete 清空浏览器缓存
+2. 打开 news.html → 检查封面与链接
+3. 进入 news/page/2.html → 第 2 页文章可点开、图片可见
+4. 测试分页 1/2/3/4 与语言切换下拉
+5. 抽查 fr/nouvelles/page/2.html、de/nachrichten/seite/2.html
+
+六、备注
+--------
+- 验证码图标等个别 src="index.html" 为非文章内容，可忽略
+- 新补采的 7 篇详情页建议用浏览器再打开一次，确认 wp-content 资源均已本地化

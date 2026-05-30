@@ -1,0 +1,19 @@
+Logo 修复报告
+时间: 2026-05-29T13:21:40.382Z
+修改文件: 1074
+header 修复: 0
+footer 修复: 0
+其他: 5370
+
+抽样:
+index.html
+  header: n/a
+  footer: n/a
+
+pl/index.html
+  header: n/a
+  footer: n/a
+
+zh/index.html
+  header: n/a
+  footer: n/a

@@ -1,0 +1,24 @@
+Sitemap 生成报告
+时间: 2026-05-30T05:34:56.069Z
+域名: https://seasoningpackagingmachinery.com
+扫描 HTML: 1760
+收录 URL: 1577
+排除(非页面): 12
+排除(canonical 指向他页): 19
+排除(HTTrack -2 镜像): 144
+排除(语言首页重复): 8
+Sitemap 文件: https://seasoningpackagingmachinery.com/sitemap.xml
+
+首页抽样:
+https://seasoningpackagingmachinery.com/
+https://seasoningpackagingmachinery.com/2024-our-chinese-new-year-holiday.html
+https://seasoningpackagingmachinery.com/a-unique-analysis-of-the-lip-gloss-filling-technology.html
+https://seasoningpackagingmachinery.com/a-unique-analysis-of-the-sauce-filling-technology.html
+https://seasoningpackagingmachinery.com/a-unique-guide-about-automatic-labeling-machine.html
+https://seasoningpackagingmachinery.com/a-unique-guide-about-automatic-screw-capping-machine.html
+https://seasoningpackagingmachinery.com/a-unique-guide-about-cosmetic-filling-machine.html
+https://seasoningpackagingmachinery.com/about-us.html
+...
+https://seasoningpackagingmachinery.com/zh/what-are-capsules-and-how-to-fill-capsules.html
+https://seasoningpackagingmachinery.com/zh/what-are-sachets-and-how-to-fill-sachets.html
+https://seasoningpackagingmachinery.com/zh/what-are-the-advantages-of-automatic-filling-machine.html

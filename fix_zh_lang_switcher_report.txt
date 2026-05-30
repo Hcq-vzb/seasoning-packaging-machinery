@@ -1,0 +1,16 @@
+中文 /zh/ 语言切换修复报告
+时间: 2026-05-27T07:56:29.365Z
+
+修改文件数: 98
+语言菜单块: 196
+链接校正: 1520
+新增 NPACKPM_LANG_HOMES: 7
+新增 CSS: 7
+新增 JS: 7
+跳过损坏(gzip): 75
+
+路径规则（相对站点根）:
+  zh/index.html → ../index.html, ../fr/index.html 等
+  zh/产品/页码/2.html → ../../../index.html, ../../../fr/index.html 等
+
+仅修改 zh/ 目录。

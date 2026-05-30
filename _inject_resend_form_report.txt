@@ -1,0 +1,12 @@
+Resend 表单脚本注入报告
+时间: 2026-05-30T05:25:10.944Z
+扫描 HTML: 1748
+新注入: 1082
+已有脚本: 0
+跳过: 0
+
+抽样:
+contact.html: form=true script=true
+zh/联系.html: form=true script=true
+de/kontakt.html: form=true script=true
+fr/contact.html: form=true script=true

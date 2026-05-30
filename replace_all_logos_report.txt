@@ -1,0 +1,32 @@
+全站 Logo 替换报告 (kiwllogo.png)
+时间: 2026-05-28T16:36:14.631Z
+Logo 文件: wp-content/uploads/2025/10/kiwllogo.png (6460 bytes)
+
+扫描 HTML: 1748
+修改文件: 1075
+顶部/移动端 logo 更新: 3225
+页脚 logo 更新: 2150
+
+按目录层级:
+  根目录(0): 94 个文件
+  1级子目录: 792 个文件
+  2级子目录: 124 个文件
+  3级子目录: 64 个文件
+  4级子目录: 1 个文件
+
+路径验证: 4244 处通过, 0 处失败
+  全部通过
+
+示例:
+2024-our-chinese-new-year-holiday.html → ./wp-content/uploads/2025/10/kiwllogo.png
+a-unique-analysis-of-the-lip-gloss-filling-technology.html → ./wp-content/uploads/2025/10/kiwllogo.png
+a-unique-analysis-of-the-sauce-filling-technology.html → ./wp-content/uploads/2025/10/kiwllogo.png
+a-unique-guide-about-automatic-labeling-machine.html → ./wp-content/uploads/2025/10/kiwllogo.png
+a-unique-guide-about-automatic-screw-capping-machine.html → ./wp-content/uploads/2025/10/kiwllogo.png
+a-unique-guide-about-cosmetic-filling-machine.html → ./wp-content/uploads/2025/10/kiwllogo.png
+about-us/npack-certification.html → ../wp-content/uploads/2025/10/kiwllogo.png
+about-us/npack-customer.html → ../wp-content/uploads/2025/10/kiwllogo.png
+about-us/npack-factory.html → ../wp-content/uploads/2025/10/kiwllogo.png
+about-us/npack-team.html → ../wp-content/uploads/2025/10/kiwllogo.png
+about-us.html → ./wp-content/uploads/2025/10/kiwllogo.png
+ai-makes-packaging-industry-growing-and-efficient.html → ./wp-content/uploads/2025/10/kiwllogo.png
