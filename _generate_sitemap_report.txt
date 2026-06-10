@@ -1,11 +1,13 @@
 Sitemap 生成报告
-时间: 2026-05-30T05:34:56.069Z
+时间: 2026-06-10T05:13:47.521Z
 域名: https://seasoningpackagingmachinery.com
 扫描 HTML: 1760
-收录 URL: 1577
+收录 URL: 690
 排除(非页面): 12
-排除(canonical 指向他页): 19
-排除(HTTrack -2 镜像): 144
+排除(canonical 指向他页): 158
+排除(HTTrack -2 镜像): 0
+排除(HTTrack 跳转页): 666
+排除(noindex 页面): 226
 排除(语言首页重复): 8
 Sitemap 文件: https://seasoningpackagingmachinery.com/sitemap.xml
 

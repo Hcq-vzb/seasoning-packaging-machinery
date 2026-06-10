@@ -22,7 +22,7 @@ const SKIP_DIRS = new Set([
 const report = {
   scanned: 0,
   included: 0,
-  excluded: { nonHtml: 0, notCanonical: 0, httrackMirror: 0, langHomeDup: 0, skipDir: 0 },
+  excluded: { nonHtml: 0, notCanonical: 0, httrackMirror: 0, langHomeDup: 0, redirectStub: 0, noindex: 0, skipDir: 0 },
 };
 
 const LANGS = new Set(['zh', 'fr', 'de', 'it', 'es', 'ru', 'pl', 'pt']);
@@ -75,6 +75,18 @@ function isLangHomeDuplicate(relPath) {
   const norm = normalizePath(relPath);
   const m = norm.match(/^([a-z]{2})\/index\.html$/i);
   return m && LANGS.has(m[1].toLowerCase());
+}
+
+function isRedirectStub(relPath, html) {
+  const base = path.basename(normalizePath(relPath));
+  if (/^index[0-9a-f]{4}\.html$/i.test(base)) return true;
+  if (html.length < 4000 && /Page has moved|META HTTP-EQUIV=["']Refresh["']/i.test(html)) return true;
+  return false;
+}
+
+function isNoindex(html) {
+  const m = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i);
+  return m && /noindex/i.test(m[1]);
 }
 
 function toPublicUrl(relPath) {
@@ -161,6 +173,16 @@ function walk(dir, rel = '') {
     }
 
     const html = buf.toString('utf8');
+    if (isRedirectStub(r, html)) {
+      report.excluded.redirectStub++;
+      continue;
+    }
+
+    if (isNoindex(html)) {
+      report.excluded.noindex++;
+      continue;
+    }
+
     if (isLangHomeDuplicate(r)) {
       report.excluded.langHomeDup++;
       continue;
@@ -259,6 +281,8 @@ const out = `Sitemap 生成报告
 排除(非页面): ${report.excluded.nonHtml}
 排除(canonical 指向他页): ${report.excluded.notCanonical}
 排除(HTTrack -2 镜像): ${report.excluded.httrackMirror}
+排除(HTTrack 跳转页): ${report.excluded.redirectStub}
+排除(noindex 页面): ${report.excluded.noindex}
 排除(语言首页重复): ${report.excluded.langHomeDup}
 Sitemap 文件: ${sitemapFiles.join(', ')}
 

@@ -144,8 +144,9 @@ const report = `# 全站 SEO / 关键词审计报告
 
 ## 一、总体说明
 
-本站使用 **All in One SEO Pro (AIOSEO)** 管理 SEO，**未使用**传统 \`<meta name="keywords">\` 标签。
+本站使用 **All in One SEO Pro (AIOSEO)** 管理 SEO，并配合 **关键词金字塔** 写入 \`<meta name="keywords">\`。
 实际 SEO 字段为：
+- \`<meta name="keywords">\` 金字塔关键词（T1→T3 分层）
 - \`<title>\` 页面标题
 - \`<meta name="description">\` 描述（相当于核心关键词/摘要）
 - \`og:title\` / \`og:description\` / \`og:site_name\` Open Graph 标签

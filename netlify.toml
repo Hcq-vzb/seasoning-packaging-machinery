@@ -1,7 +1,86 @@
 [build]
   publish = "."
 
+# API
 [[redirects]]
   from = "/api/send-inquiry"
   to = "/.netlify/functions/send-inquiry"
   status = 200
+
+# Canonical host: non-www HTTPS
+[[redirects]]
+  from = "https://www.seasoningpackagingmachinery.com/*"
+  to = "https://seasoningpackagingmachinery.com/:splat"
+  status = 301
+  force = true
+
+# Legacy domain → new domain
+[[redirects]]
+  from = "https://www.npackpm.com/*"
+  to = "https://seasoningpackagingmachinery.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://npackpm.com/*"
+  to = "https://seasoningpackagingmachinery.com/:splat"
+  status = 301
+  force = true
+
+# Language landing shortcuts (zh.html → zh/index.html)
+[[redirects]]
+  from = "/zh.html"
+  to = "/zh/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/de.html"
+  to = "/de/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/fr.html"
+  to = "/fr/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/es.html"
+  to = "/es/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/it.html"
+  to = "/it/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/ru.html"
+  to = "/ru/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/pl.html"
+  to = "/pl/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/pt.html"
+  to = "/pt/index.html"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"

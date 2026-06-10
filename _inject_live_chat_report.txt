@@ -1,0 +1,12 @@
+Live Chat Widget 注入报告
+时间: 2026-06-10T05:19:08.817Z
+扫描: 1748
+新注入: 1082
+已有: 0
+跳过(跳转页): 666
+
+抽样:
+index.html: css=true js=true
+zh/index.html: css=true js=true
+de/kontakt.html: css=true js=true
+lipstick-filling-machine.html: css=true js=true
